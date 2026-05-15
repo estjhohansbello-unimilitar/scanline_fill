@@ -7,24 +7,26 @@
 
     <style>
         body {
-            background: #1e1e1e;
+            margin: 0;
+            background: #222;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
         }
 
         canvas {
             background: white;
-            border: 2px solid #444;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
 
-    <canvas id="canvas" width="600" height="500"></canvas>
+    <!-- Canvas donde se dibuja el polígono -->
+    <canvas id="canvas" width="600" height="400"></canvas>
 
+    <!-- Archivo JavaScript -->
     <script src="scanline.js"></script>
 
 </body>
